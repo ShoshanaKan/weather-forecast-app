@@ -1,0 +1,127 @@
+.weather-widget {
+    height: 184px;
+    width: 342px;
+    cursor: pointer;
+}
+
+.weather-widget .overlap-group {
+    position: relative;
+}
+
+.weather-widget .rectangle {
+    left: 0;
+    position: absolute;
+}
+
+.weather-widget .label {
+    color: #ffffff;
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -0.08px;
+    line-height: 18px;
+    position: absolute;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.weather-widget .div {
+    color: transparent;
+    font-family: "SF Pro Text-Regular", Helvetica;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 13px;
+    position: absolute;
+}
+
+.weather-widget .text-wrapper {
+    color: #ebebf599;
+    letter-spacing: -0.08px;
+    line-height: 18px;
+}
+
+.weather-widget .span {
+    color: #ffffff;
+    font-family: var(--default-regular-body-font-family);
+    font-size: var(--default-regular-body-font-size);
+    font-style: var(--default-regular-body-font-style);
+    font-weight: var(--default-regular-body-font-weight);
+    letter-spacing: var(--default-regular-body-letter-spacing);
+    line-height: var(--default-regular-body-line-height);
+}
+
+.weather-widget .label-2 {
+    color: #ffffff;
+    font-family: "SF Pro Display-Regular", Helvetica;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 0.37px;
+    line-height: 41px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.weather-widget .weather-image-wrapper {
+    height: 160px;
+    left: 176px;
+    position: absolute;
+    top: 3px;
+    transform: rotate(-2deg);
+    width: 160px;
+}
+
+.weather-widget .weather-image {
+    height: 165px;
+    left: -3px;
+    position: absolute;
+    top: -3px;
+    transform: rotate(2deg);
+    width: 165px;
+}
+
+.weather-widget .default {
+    height: 197px;
+    top: -12px;
+}
+
+.weather-widget .overlap-group.default .rectangle {
+    height: 175px;
+    top: 22px;
+    width: 342px;
+}
+
+.weather-widget .rectangle {
+    height: 167px;
+    top: 38px;
+    width: 339px;
+}
+
+.weather-widget .overlap-group.default .label {
+    left: 237px;
+    top: 158px;
+}
+
+.weather-widget .label {
+    left: 235px;
+    top: 166px;
+}
+
+.weather-widget .overlap-group.default .div {
+    left: 20px;
+    top: 135px;
+}
+
+.weather-widget .div {
+    left: 18px;
+    top: 143px;
+}
+
+.weather-widget .overlap-group.default .label-2 {
+    left: 20px;
+    top: 70px;
+}
+
+.weather-widget .label-2 {
+    left: 18px;
+    top: 78px;
+}

@@ -1,0 +1,17 @@
+.weather-search-add {
+  padding-top: 50px;
+}
+
+.left-title {
+  color: #ffffff;
+  font-family: "SF Pro Display-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 34px;
+  white-space: nowrap;
+}
+
+.no-history {
+  white-space: nowrap;
+}

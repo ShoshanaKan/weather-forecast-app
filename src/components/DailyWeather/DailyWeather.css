@@ -1,0 +1,19 @@
+.day-container {
+    border: 1px solid #FFFFFF80;
+    margin: 8px;
+    background-color: #48319D;
+    border-radius: 44px;
+    width: 60px;
+}
+
+.day {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.icon-weather {
+    height: 45px;
+    width: 45px;
+}

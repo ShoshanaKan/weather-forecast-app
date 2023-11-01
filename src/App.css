@@ -1,0 +1,18 @@
+html, #root{
+  background: linear-gradient(180deg, rgb(46, 51, 90) 0%, rgb(28, 27, 51) 100%);
+  background-color: rgba(255, 255, 255, 1);
+  min-height: 100vh;
+  color: white;
+}
+
+:root {
+  --default-regular-body-font-family: "SFPro Text-Regular", Helvetica;
+  --default-regular-body-font-size: 17px;
+  --default-regular-body-font-style: normal;
+  --default-regular-body-font-weight: 400;
+  --default-regular-body-letter-spacing: -0.40799999237060547px;
+  --default-regular-body-line-height: 22px;
+  --defaultsystembluedark: rgba(10, 132, 255, 1);
+  --fill-colordarktertiary: rgba(118, 118, 128, 0.24);
+  --label-colordarksecondary: rgba(235, 235, 245, 0.6);
+}
